@@ -40,7 +40,7 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
       width: "99%",
       float: "none",
       marginTop: "15px",
-      height: "8vh",
+      // height: "8vh",
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
