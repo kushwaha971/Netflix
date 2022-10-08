@@ -39,11 +39,12 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("md")]: {
       width: "99%",
       float: "none",
-      marginTop: "15px",
-      // height: "8vh",
       display: 'block',
+      height: "7.7vh",
       marginLeft: 'auto',
       marginRight: 'auto',
+      marginTop: '20px',
+      marginBottom: '20px',
     },
   },
 
@@ -62,13 +63,15 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
     borderRadius: '1px',
     [theme.breakpoints.down("md")]: {
       float: "none",
-      height: "8vh",
+      height: "5vh",
       fontSize: "15px",
       width: "40%",
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
-      marginTop: '15px',
+      marginTop: '20px',
+      marginBottom: '20px',
+
     },
   },
   ".subStyle": {
