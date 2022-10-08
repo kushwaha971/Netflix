@@ -4,7 +4,7 @@ import { Box, styled } from "@mui/material";
 const Landing6Style = styled(Box)(({theme}) => ({
     ".backgroundStyle": {
         backgroundColor: "black",
-        height: "700px",
+        height: "800px",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100vw",
         [theme.breakpoints.down("md")]: {
