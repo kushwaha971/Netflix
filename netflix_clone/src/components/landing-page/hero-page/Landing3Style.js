@@ -26,7 +26,9 @@ const Landing3Style = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("md")]: {
       height: "280px",
       width: "345px",
-      marginLeft: "0px",
+      display: "block",
+      marginLeft: "auto",
+      marginRight: "auto",
     },
   },
 
