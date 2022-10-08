@@ -4,12 +4,12 @@ import BackgroundImg from "../../../images/Background.png";
 const Landing1Style = styled(Box)(({ theme }) => ({
   ".backgroundImg": {
     backgroundImage: `url(${BackgroundImg})`,
-    height: "702px",
+    height: "700px",
     backgroundRepeat: "no-repeat",
-    backgroundSize: "100vw",
+    backgroundSize: "105vw",
     [theme.breakpoints.down("md")]: {
-      height: "500px",
-      backgroundSize: "225vw",
+      height: "525px",
+      backgroundSize: "255vw",
     },
   },
 

@@ -32,15 +32,15 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
   },
 
   ".textField": {
-    marginTop: '10px',
     float: "left",
+    marginTop: '10px',
     width: "70%",
-    height: "8vh",
+    height: "4vh",
     [theme.breakpoints.down("md")]: {
       width: "99%",
       float: "none",
       marginTop: "15px",
-      height: "9vh",
+      height: "4vh",
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
@@ -48,28 +48,27 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
   },
 
   ".startButton": { 
-    marginTop: '10px',
     "&:hover": {
       background: "red",
     },
+    marginTop: '10px',
     fontFamily: "Roboto",
     fontSize: "20px",
     fontWeight: "400",
     textTransform: "capitalize",
     float: "right",
     width: "30%",
-    height: "8vh",
+    height: "4vh",
     borderRadius: '1px',
     [theme.breakpoints.down("md")]: {
       float: "none",
-      height: "7vh",
+      height: "3vh",
       fontSize: "15px",
       width: "40%",
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
       marginTop: '15px',
-     
     },
   },
   ".subStyle": {
