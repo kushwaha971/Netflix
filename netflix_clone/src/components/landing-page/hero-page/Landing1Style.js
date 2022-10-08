@@ -9,7 +9,7 @@ const Landing1Style = styled(Box)(({ theme }) => ({
     backgroundSize: "100vw",
     [theme.breakpoints.down("md")]: {
       height: "500px",
-      backgroundSize: "216vw",
+      backgroundSize: "225vw",
     },
   },
 
