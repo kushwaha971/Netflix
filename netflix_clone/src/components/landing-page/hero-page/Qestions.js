@@ -4,7 +4,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import AddIcon from "@mui/icons-material/Add";
 import { Box } from "@mui/material";
 import QuestionStyle from "./QuestionStyle";
 import Varification from "./Varification";

@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import Landing6Style from "./Landing6Style";
 import Qestions from "./Qestions";
-import Varification from "./Varification";
+
 
 function Landing6() {
   return (
