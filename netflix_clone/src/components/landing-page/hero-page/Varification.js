@@ -1,6 +1,7 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import React from "react";
 import AppbarStyle from "../NavBar/AppbarStyle";
+import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 
 function Varification() {
   return (
@@ -29,7 +30,7 @@ function Varification() {
         sx={{ backgroundColor: "red" }}
         className="startButton"
       >
-        Get Started
+        Get Started  {<ArrowForwardIosOutlinedIcon/>}
       </Button>
     </AppbarStyle>
   );
