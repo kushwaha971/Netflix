@@ -8,6 +8,7 @@ const Landing1Style = styled(Box)(({ theme }) => ({
     backgroundRepeat: "no-repeat",
     backgroundSize: "105vw",
     [theme.breakpoints.down("md")]: {
+      backgroundImage: `linear-gradient(to top right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("${BackgroundImg}")`,
       height: "525px",
       backgroundSize: "255vw",
     },
