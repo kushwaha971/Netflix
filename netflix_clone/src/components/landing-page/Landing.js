@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer/Footer";
 import Landing1 from "./hero-page/Landing1";
 import Landing2 from "./hero-page/Landing2";
 import Landing3 from "./hero-page/Landing3";
@@ -15,6 +16,7 @@ function Landing() {
       <Landing4 />
       <Landing5 />
       <Landing6/>
+      <Footer/>
     </>
   );
 }
