@@ -62,7 +62,6 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
       padding: "5px",
       float: "none",
       width: "50%",
-      // marginTop: "15px",
       display: "block",
       marginLeft: "auto",
       marginRight: "auto",
@@ -81,6 +80,11 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
       fontSize: "18px",
     },
   },
-}));
+  ".ForwardArrowStyle":{
+    [theme.breakpoints.down("md")]:{
+     display: 'none'
+    },
+  }
+})); 
 
 export default AppbarStyle;
