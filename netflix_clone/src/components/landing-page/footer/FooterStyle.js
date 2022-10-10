@@ -18,7 +18,7 @@ const FooterStyle = styled(Box)(({ theme }) =>({
             marginLeft:'auto',
             marginRight: 'auto',
             [theme.breakpoints.down("md")]:{
-              width: '100%'    
+              width: '95%'    
             },
             
       },
