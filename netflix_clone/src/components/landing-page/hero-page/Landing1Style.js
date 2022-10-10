@@ -3,12 +3,12 @@ import BackgroundImg from "../../../images/Background.png";
 
 const Landing1Style = styled(Box)(({ theme }) => ({
   ".backgroundImg": {
-    backgroundImage: `linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("${BackgroundImg}")`,
+    backgroundImage: `linear-gradient(to top right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("${BackgroundImg}")`,
     height: "700px",
     backgroundRepeat: "no-repeat",
     backgroundSize: "105vw",
     [theme.breakpoints.down("md")]: {
-      backgroundImage: `linear-gradient(to top right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("${BackgroundImg}")`,
+      backgroundImage: `linear-gradient(to top right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("${BackgroundImg}")`,
       height: "505px",
       backgroundSize: "255vw",
     },
