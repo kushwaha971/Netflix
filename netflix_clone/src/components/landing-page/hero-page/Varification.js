@@ -30,7 +30,7 @@ function Varification() {
         sx={{ backgroundColor: "red" }}
         className="startButton"
       >
-        Get Started  {<ArrowForwardIosOutlinedIcon/>}
+        Get Started  {<ArrowForwardIosOutlinedIcon className="ForwardArrowStyle" />}
       </Button>
     </AppbarStyle>
   );
