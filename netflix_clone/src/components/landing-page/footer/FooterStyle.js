@@ -41,7 +41,7 @@ const FooterStyle = styled(Box)(({ theme }) =>({
             fontSize: '15px',
             fontStyle: 'Poppins',
             [theme.breakpoints.down("md")]:{
-                  fontSize: '15px',
+                  fontSize: '13px',
                   paddingTop: '3px',
                   margin: '10px -5px',   
                 },
