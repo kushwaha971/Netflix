@@ -50,7 +50,7 @@ const AppbarStyle = styled(Box)(({ theme }) => ({
       background: "red",
     },
     marginTop: "10px",
-    paddingTop: "12px",
+    paddingTop: "12.5px",
     fontFamily: "Roboto",
     fontSize: "20px",
     fontWeight: "500",

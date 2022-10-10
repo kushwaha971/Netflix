@@ -3,7 +3,7 @@ import BackgroundImg from "../../../images/Background.png";
 
 const Landing1Style = styled(Box)(({ theme }) => ({
   ".backgroundImg": {
-    backgroundImage: `url(${BackgroundImg})`,
+    backgroundImage: `linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("${BackgroundImg}")`,
     height: "700px",
     backgroundRepeat: "no-repeat",
     backgroundSize: "105vw",
@@ -23,8 +23,8 @@ const Landing1Style = styled(Box)(({ theme }) => ({
   },
 
   ".headningStyle": {
-    fontFamily: "Poppins",
-    fontSize: "55px",
+    fontFamily: "Roboto",
+    fontSize: "65px",
     fontWeight: "700",
     color: "white",
     margin: "5px",
@@ -48,8 +48,6 @@ const Landing1Style = styled(Box)(({ theme }) => ({
       fontSize: "21px",
     },
   },
-
- 
 }));
 
 export default Landing1Style;
