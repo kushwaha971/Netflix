@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import Landing2Style from "./Landing2Style";
 import laptopImg from "../../../images/laptop.png";
+import Video2 from "../../../images/NetflixGif2.gif"
 
 function Landing4() {
   return (
@@ -18,6 +19,10 @@ function Landing4() {
         <Box className="imgStyle">
           <img src={laptopImg} 
           className='tvImageStyle'
+          alt=""
+           />
+           <img src={Video2} 
+          className='tvVideo1'
           alt=""
            />
         </Box>
