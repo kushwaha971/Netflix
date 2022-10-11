@@ -20,6 +20,8 @@ const Landing2Style = styled(Box)(({ theme }) => ({
     },
   },
   ".tvImageStyle": {
+    position: 'relative',
+    zIndex: 2,
     height: "370px",
     width: "500px",
     marginLeft: "50px",
@@ -83,6 +85,50 @@ const Landing2Style = styled(Box)(({ theme }) => ({
       marginRight: "0px",
     },
   },
+  ".tvVideo":{
+    position: 'relative',
+    zIndex: 1,
+    height: '202px',
+    marginLeft: '120px',
+    marginTop: '-900px',
+    marginBottom: '110px',
+    [theme.breakpoints.between("sm", 'md')]: {
+      height: '150px',
+      marginLeft: '260px',
+      marginTop: '-500px',
+      marginBottom: '85px',
+    },
+    [theme.breakpoints.down("sm")]: {
+      height: '160px',
+      marginLeft: '40px',
+      marginTop: '-500px',
+      marginBottom: '85px',
+    }, 
+  },
+  ".tvVideo1":{
+    position: 'relative',
+    zIndex: 1,
+    height: '200px',
+    width: '300px',
+    marginLeft: '150px',
+    marginTop: '-900px',
+    marginBottom: '160px',
+    [theme.breakpoints.between("sm", 'md')]: {
+      width: '220px',
+      height: '150px',
+      marginLeft: '260px',
+      marginTop: '-700px',
+      marginBottom: '120px',
+    },
+    [theme.breakpoints.down("sm")]: {
+      width: '210px',
+      height: '160px',
+      marginLeft: '70px',
+      marginTop: '-700px',
+      marginBottom: '120px',
+    }, 
+  },
+
 }));
 
 export default Landing2Style;
