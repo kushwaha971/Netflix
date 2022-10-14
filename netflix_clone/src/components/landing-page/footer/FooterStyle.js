@@ -27,7 +27,7 @@ const FooterStyle = styled(Box)(({ theme }) =>({
             paddingTop: '80px',
             fontSize: '16px',
             fontStyle: 'Poppins',
-            marginLeft: '53px',
+            marginLeft: '80px',
             [theme.breakpoints.down("md")]:{
                   fontSize: '17px', 
                   marginLeft: '35px',   
